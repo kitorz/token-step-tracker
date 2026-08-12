@@ -2,6 +2,8 @@
 
 See where your agent's tokens are going—one step at a time.
 
+![Token Step Tracker demo](assets/demo.svg)
+
 Token Alerts Not for Virgos is a zero-dependency skill for Codex and compatible agent-skill hosts. After each meaningful task step, it reports an estimated token range, the cumulative estimate, the largest observable cost driver, and one practical suggestion for reducing future usage. Users can also choose how often a prominent usage alert appears.
 
 > [!IMPORTANT]
@@ -44,7 +46,13 @@ With an alert interval of 5,000 tokens:
 
 ## Install
 
-Copy `token-step-tracker` into a user-level Codex skill directory:
+Install with one command:
+
+```bash
+npx skills add kitorz/token-step-tracker --skill token-step-tracker -g -y
+```
+
+Or copy `token-step-tracker` manually into a user-level Codex skill directory:
 
 ```bash
 mkdir -p ~/.agents/skills

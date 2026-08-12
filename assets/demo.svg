@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">Token Step Tracker terminal demo</title>
+  <desc id="desc">A terminal-style example showing a token checkpoint, threshold alert, and token-saving suggestion.</desc>
+  <rect width="960" height="430" rx="22" fill="#0d1117"/>
+  <rect x="1" y="1" width="958" height="428" rx="21" fill="none" stroke="#30363d" stroke-width="2"/>
+  <circle cx="34" cy="30" r="7" fill="#ff5f56"/>
+  <circle cx="58" cy="30" r="7" fill="#ffbd2e"/>
+  <circle cx="82" cy="30" r="7" fill="#27c93f"/>
+  <text x="480" y="36" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">token-step-tracker</text>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="20">
+    <text x="34" y="88" fill="#7ee787">$</text>
+    <text x="58" y="88" fill="#c9d1d9">review this repo and alert every 1,000 tokens</text>
+    <text x="34" y="142" fill="#58a6ff">Token checkpoint | Step 2: Inspect source files</text>
+    <text x="34" y="182" fill="#c9d1d9">This step: est. 700-1,100 tokens</text>
+    <text x="34" y="218" fill="#c9d1d9">Cumulative: est. 1,600-2,400 tokens</text>
+    <text x="34" y="272" fill="#ff7b72" font-weight="700">TOKEN ALERT | 2,000 estimated tokens used</text>
+    <text x="34" y="326" fill="#d2a8ff">Main driver:</text>
+    <text x="190" y="326" fill="#c9d1d9">Two large files read in full</text>
+    <text x="34" y="366" fill="#d2a8ff">Save next:</text>
+    <text x="166" y="366" fill="#c9d1d9">Search symbols first, then read matching sections.</text>
+  </g>
+</svg>
