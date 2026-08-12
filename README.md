@@ -1,8 +1,8 @@
-# 不适合处女座使用的 Token 提醒
+# Token Alerts Not for Virgos
 
 See where your agent's tokens are going—one step at a time.
 
-不适合处女座使用的 Token 提醒 (Token Step Tracker) is a zero-dependency skill for Codex and compatible agent-skill hosts. After each meaningful task step, it reports an estimated token range, the cumulative estimate, the largest observable cost driver, and one practical suggestion for reducing future usage. Users can also choose how often a prominent usage alert appears.
+Token Alerts Not for Virgos is a zero-dependency skill for Codex and compatible agent-skill hosts. After each meaningful task step, it reports an estimated token range, the cumulative estimate, the largest observable cost driver, and one practical suggestion for reducing future usage. Users can also choose how often a prominent usage alert appears.
 
 > [!IMPORTANT]
 > Estimates are directional, not billing data. The skill cannot observe hidden system prompts, private reasoning, cache behavior, or platform overhead.

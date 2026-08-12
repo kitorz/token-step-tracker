@@ -3,7 +3,7 @@ name: token-step-tracker
 description: Estimate and report token consumption after each completed step of a multi-step agent task, maintain a cumulative estimate, show configurable threshold alerts, identify the main token driver, and suggest one practical way to reduce future usage. Use when users ask to track, monitor, display, audit, alert on, optimize, save, or reduce tokens or context usage during a task. All figures must be labeled as estimates unless the runtime explicitly supplies usage data.
 ---
 
-# 不适合处女座使用的 Token 提醒
+# Token Alerts Not for Virgos
 
 Track approximate token usage without interrupting the task or claiming billing accuracy.
 
