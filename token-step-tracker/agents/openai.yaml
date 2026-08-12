@@ -1,0 +1,4 @@
+interface:
+  display_name: "不适合处女座使用的 Token 提醒"
+  short_description: "估算每步 Token，并按自定义阈值提醒"
+  default_prompt: "Use $token-step-tracker to estimate token usage, alert me every 10000 tokens, and suggest ways to reduce it."
