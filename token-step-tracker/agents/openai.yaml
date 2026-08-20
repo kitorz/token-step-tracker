@@ -1,4 +1,4 @@
 interface:
   display_name: "Token Alerts Not for Virgos"
   short_description: "Estimate tokens with configurable alerts"
-  default_prompt: "Use $token-step-tracker to estimate token usage, alert me every 10000 tokens, and suggest ways to reduce it."
+  default_prompt: "Use $token-step-tracker to estimate token usage, alert me every 1000 tokens, and suggest ways to reduce it."

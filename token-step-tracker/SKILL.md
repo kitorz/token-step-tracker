@@ -11,7 +11,7 @@ Track approximate token usage without interrupting the task or claiming billing 
 
 1. Break the task into meaningful outcome-based steps. Keep the existing plan if one already exists.
 2. State once that token figures are estimates and exclude hidden system, reasoning, and platform overhead.
-3. Read a positive integer alert interval from the user's request, such as `5000` in "alert every 5000 tokens." Use `10000` when the user requests alerts without specifying an interval. State the active interval once.
+3. Read a positive integer alert interval from the user's request, such as `5000` in "alert every 5000 tokens." Use `1000` when the user requests alerts without specifying an interval. State the active interval once.
 4. Set the next alert threshold to one interval and advance it by the interval after each alert.
 5. Do not make extra tool calls, reread files, or generate additional content solely to improve an estimate.
 
